@@ -97,7 +97,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 .information .card {
   display: inline-block;
-  margin: 0 5vw;
+  margin: 0 2vw;
 }
 .information .card h2 {
   color: #ddd
