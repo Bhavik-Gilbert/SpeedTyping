@@ -1,38 +1,112 @@
-.App {
+body {
+  background: #222;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Monaco", Monospace;
+  color: #ddd;
+}
+
+li {
+  color: #ddd;
+}
+
+.words {
+  color: #ddd;
+  background:#111;
+  border-radius: 1em;
+  box-shadow: #aaa 0px 0px 5px 0px, #333 0px 0px 0px 1px;
+  padding: 1em;
+  font-family: "Monaco", Monospace;
+  line-height: 1.5em;
+  width: 90vw;
+  margin: 5em 0 1em 0;
+}
+.success {
+  background: green;
+}
+.failiure {
+  background: red;
+}
+.over {
+  background: #a78824;
+}
+.upper {
+  background: #c95b0c;
+}
+.current {
+  text-decoration: underline;
+}
+
+input {
+  color: #ddd;
+  background:#4b4b4c;
+  background:#4b4b4c;
+  font-family: "Monaco", monospace;
+  color: #ddd;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.1em;
+  box-shadow: #aaa 0px 0px 5px 0px, #333 0px 0px 0px 1px;
+}
+input[type=number]{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.input {
+  width: 90vw;
+  margin: 1em 0;
+  box-shadow: #008080 0px 0px 5px 0px, #333 0px 0px 0px 1px;
+}
+.input:focus {
+  background:#008080;
+  outline: none;
+  box-shadow: #ccc 0px 0px 5px 0px, #333 0px 0px 0px 1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.startbutton {
+  margin: 1em 0;
+  width: 10vw;
+  padding: 0.7em 0.5em;
+  background:#008080;
+  color: #ccc;
+  border-radius: 0.5em;
+  border: none;
+  box-shadow: #444 0px 0px 5px 0px, #333 0px 0px 0px 1px;
+}
+.startbutton:hover {
+  background:#025043;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.timer {
+  margin: 1em 0;
+  width: 90vw;
+  background: hidden;
+  border: hidden;
+  font-weight: bold;
+  font-size: 3em;
+  font-family: "Monaco", Monospace;
+  color: #008080;
 }
 
-.App-link {
-  color: #61dafb;
+.information {
+  width: 90vw;
+  margin: 5em 0 1em 0;
+}
+.information .card {
+  display: inline-block;
+  margin: 0 5vw;
+}
+.information .card h2 {
+  color: #ddd
+}
+.information .card p {
+  color: #008080;
+  font-size: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inline {
+  display: inline-block
 }
