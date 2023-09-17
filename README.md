@@ -1,4 +1,4 @@
-#Typing Speed Test
+# Typing Speed Test
 
 Typing speed test web application.
 
