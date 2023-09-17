@@ -1,3 +1,5 @@
+#Typing Speed Test
+
 Typing speed test web application.
 
 *   Runs for inputted timeframe
