@@ -1,6 +1,6 @@
 # Typing Speed Test
 
-Typing speed test web application.
+Typing speed test web application made in react.
 
 *   Runs for inputted timeframe
 *   Colour feedback on current word for errors
@@ -10,3 +10,5 @@ Typing speed test web application.
 *   Maximum Words Per Minute
 *   Characters Per Minute
 *   Accuracy
+
+Check it out for yourself here <https://typingtestspeed.netlify.app/>
